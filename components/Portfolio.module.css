@@ -1,0 +1,62 @@
+.Wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 15px; */
+  height: 100%;
+}
+
+.Content {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem 1rem;
+}
+
+.Chart {
+  border: 1px solid #282b2f;
+  padding: 1rem 2rem;
+}
+
+.BalanceTitle {
+  color: #8a919e;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.BalanceValue {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.PortfolioTable {
+  margin-top: 1rem;
+  border: 1px solid #282b2f;
+}
+
+.Table {
+  width: 100%;
+}
+
+.TableRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TableRow>th {
+  text-align: left;
+}
+
+.TableItem {
+  padding: 1rem 2rem;
+}
+
+.Divider {
+  border-bottom: 1px solid #282b2f;
+}
+
+.Title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
